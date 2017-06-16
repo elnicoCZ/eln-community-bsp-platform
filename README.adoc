@@ -15,7 +15,7 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir eln-community-bsp
 $: cd eln-community-bsp
-$: repo init -u https://github.com/Elnico/eln-community-bsp-platform -b dizzy
+$: repo init -u https://github.com/elnicoCZ/eln-community-bsp-platform.git -b dizzy
 $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.

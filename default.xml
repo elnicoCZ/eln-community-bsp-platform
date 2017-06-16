@@ -6,13 +6,14 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/elnicoCZ" name="elnico"/>
 
   <project remote="yocto" revision="jethro" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="jethro" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
   <project remote="oe" revision="jethro" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="freescale" revision="jethro" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="elnico" revision="jethro" name="eln-community-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
@@ -20,5 +21,7 @@
   <project remote="freescale" revision="jethro" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="jethro" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="jethro" name="Documentation" path="sources/Documentation"/>
+
+  <project remote="elnico" revision="jethro" name="meta-elnico-sqm4" path="sources/meta-elnico-sqm4"/>
 
 </manifest>

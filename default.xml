@@ -6,13 +6,14 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/elnicoCZ" name="elnico"/>
 
   <project remote="yocto" revision="morty" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="morty" name="meta-freescale" path="sources/meta-freescale"/>
 
   <project remote="oe" revision="morty" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="freescale" revision="morty" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="elnico" revision="morty" name="eln-community-bsp-base" path="sources/base">
 	<linkfile dest="README" src="README"/>
 	<linkfile dest="setup-environment" src="setup-environment"/>
   </project>
@@ -20,5 +21,7 @@
   <project remote="freescale" revision="morty" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="morty" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" revision="morty" name="Documentation" path="sources/Documentation"/>
+
+  <project remote="elnico" revision="morty" name="meta-elnico-sqm4" path="sources/meta-elnico-sqm4"/>
 
 </manifest>

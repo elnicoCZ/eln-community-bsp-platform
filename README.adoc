@@ -23,7 +23,7 @@ At the end of the commands you have every metadata you need to start work with.
 To start a simple image build:
 
 [source,console]
-$: MACHINE=sqm4sx6-eb && source ./setup-environment build
+$: MACHINE=sqm4sx6-eb DISTRO=fslc-framebuffer source ./setup-environment build
 $: bitbake core-image-minimal
 
 You can use any directory to host your build.
